@@ -27,6 +27,10 @@ export const StyledInput = styled.input`
     @media (max-width: 450px) {
         height: 35px;
         font-size: 16px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-radius: 0;
     }
 `;
 

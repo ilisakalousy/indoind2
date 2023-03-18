@@ -75,6 +75,10 @@ export const DeleteButton = styled.button`
     &:hover {
         background-color: rgba(63, 0, 255, 0.6);
     }
+
+    @media (max-width: 450px) {
+        border-radius: 50px;
+    }
 `;
 
 export const DragWrapper = styled.div`

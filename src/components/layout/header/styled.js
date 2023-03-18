@@ -46,6 +46,7 @@ export const AddingButton = styled.button`
 export const StyledPlus = styled(Plus)`
     width: 30px;
     height: 30px;
+    stroke: #000;
 
     @media (max-width: 450px) {
         width: 40px;
