@@ -48,6 +48,7 @@ export const StyledHeading = styled.strong`
 
     @media (max-width: 450px) {
         user-select: none;
+        font-size: 20px;
     }
 `;
 
@@ -60,6 +61,7 @@ export const StyledDesc = styled.span`
 
     @media (max-width: 450px) {
         user-select: none;
+        font-size: 16px;
     }
 `;
 
@@ -77,6 +79,8 @@ export const DeleteButton = styled.button`
     }
 
     @media (max-width: 450px) {
+        width: 25px;
+        height: 25px;
         border-radius: 50px;
     }
 `;
