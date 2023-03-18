@@ -32,6 +32,10 @@ export const CardInner = styled.div`
     @media (max-width: 450px) {
         width: 90%;
         margin-left: auto;
+
+        &:hover {
+            background-color: none;
+        }
     }
 `;
 
@@ -41,6 +45,10 @@ export const StyledHeading = styled.strong`
     padding-left: 30px;
     word-break: break-all;
     line-height: 20px;
+
+    @media (max-width: 450px) {
+        user-select: none;
+    }
 `;
 
 export const StyledDesc = styled.span`
@@ -49,6 +57,10 @@ export const StyledDesc = styled.span`
     word-break: break-all;
     margin-top: 5px;
     line-height: 18px;
+
+    @media (max-width: 450px) {
+        user-select: none;
+    }
 `;
 
 export const DeleteButton = styled.button`

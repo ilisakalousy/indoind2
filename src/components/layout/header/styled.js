@@ -36,9 +36,19 @@ export const AddingButton = styled.button`
     &:hover {
         background-color: #f0f0f0;
     }
+
+    @media (max-width: 450px) {
+        width: 40px;
+        height: 40px;
+    }
 `;
 
 export const StyledPlus = styled(Plus)`
     width: 30px;
-    height: auto;
+    height: 30px;
+
+    @media (max-width: 450px) {
+        width: 40px;
+        height: 40px;
+    }
 `;

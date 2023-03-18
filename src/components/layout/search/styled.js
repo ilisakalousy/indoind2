@@ -23,6 +23,11 @@ export const StyledInput = styled.input`
     &:focus {
         outline: none;
     }
+
+    @media (max-width: 450px) {
+        height: 35px;
+        font-size: 16px;
+    }
 `;
 
 export const StyledLoupe = styled(Loupe)`
@@ -31,4 +36,9 @@ export const StyledLoupe = styled(Loupe)`
     height: 25px;
     top: 3px;
     left: 2px;
+
+    @media (max-width: 450px) {
+        height: 30px;
+        width: 30px;
+    }
 `;
